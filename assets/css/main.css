@@ -246,6 +246,25 @@ section {
   }
 }
 
+.btn-getstarted, .btn-getstarted:focus {
+  font-size: 16px;
+  color: var(--color-white);
+  background: var(--color-primary);
+  padding: 8px 23px;
+  border-radius: 4px;
+  transition: 0.3s;
+  font-family: var(--font-secondary);
+}
+.btn-getstarted:hover, .btn-getstarted:focus:hover {
+  color: var(--color-white);
+  background: rgba(var(--color-primary-rgb), 0.85);
+}
+@media (max-width: 1279px) {
+  .btn-getstarted, .btn-getstarted:focus {
+    margin-right: 50px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Desktop Navigation 
 --------------------------------------------------------------*/
@@ -507,7 +526,7 @@ section {
 }
 @media (min-width: 992px) {
   .hero-animated .animated {
-    max-width: 90%;
+    max-width: 70%;
   }
 }
 @media (max-width: 991px) {
@@ -977,7 +996,7 @@ section {
 }
 .featured-services .service-item p {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 20px;
   margin-bottom: 0;
 }
 .featured-services .service-item:hover {
@@ -997,18 +1016,18 @@ section {
 }
 .about .about-img:before {
   position: absolute;
-  inset: -60px 0 0 -60px;
+  inset: -20px 0 0 -20px;
   z-index: -1;
   content: "";
   background: url("../img/about-bg.png") top left;
   background-repeat: no-repeat;
 }
-@media (max-width: 575px) {
+@media (max-width: 250px) {
   .about .about-img {
-    margin: 30px 0 0 30px;
+    margin: 20px 0 0 20px;
   }
   .about .about-img:before {
-    inset: -30px 0 0 -30px;
+    inset: -20px 0 0 -20px;
   }
 }
 .about h3 {
@@ -1069,9 +1088,7 @@ section {
   padding: 0 0 60px 0;
 }
 .clients .swiper-slide img {
-  opacity: 0.5;
   transition: 0.3s;
-  filter: grayscale(100);
 }
 .clients .swiper-slide img:hover {
   filter: none;

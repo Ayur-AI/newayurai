@@ -1861,7 +1861,7 @@ section {
   left: 0;
   top: -18px;
   right: 0;
-  opacity: 0;
+  opacity: 1;
   transition: ease-in-out 0.3s;
   display: flex;
   align-items: center;

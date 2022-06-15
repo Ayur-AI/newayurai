@@ -115,7 +115,10 @@ section {
     max-width: 80%;
   }
 }
-
+.img-fluids {
+  max-width: 100%;
+  height: auto;
+}
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -2103,6 +2106,8 @@ section {
 .contact .php-email-form button[type=submit]:hover {
   background: rgba(var(--color-primary-rgb), 0.85);
 }
+
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);

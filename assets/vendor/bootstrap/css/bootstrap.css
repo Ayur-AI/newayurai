@@ -6597,6 +6597,7 @@ textarea.form-control-lg {
   left: 0;
   z-index: 1;
   content: "";
+  text-align: center;
 }
 
 .text-truncate {

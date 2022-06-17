@@ -146,7 +146,7 @@
     display: none
 }
 
-.swiper-css-mode>.swiper-wrapper>.swiper-slide {
+.swiper-css-mode>.swiper-wrapper>. {
     scroll-snap-align: start start
 }
 

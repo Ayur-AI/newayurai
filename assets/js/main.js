@@ -243,6 +243,34 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
+  new Swiper('.collaborators-slider', {
+    speed: 400,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    breakpoints: {
+      320: {
+        slidesPerView: 2,
+        spaceBetween: 40
+      },
+      480: {
+        slidesPerView: 2,
+        spaceBetween: 60
+      },
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 80
+      },
+      992: {
+        slidesPerView: 2,
+        spaceBetween: 120
+      }
+    }
+  });
+
   /**
    * Testimonials Slider
    */
